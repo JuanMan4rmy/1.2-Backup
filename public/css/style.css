@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-box {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-box input {
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  padding: 15px 10px;
+  border-color: purple;
+  outline-color: aquamarine;
+}
+
+.form-box button {
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: purple;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  background: aquamarine;
+}
